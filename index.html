@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Music Player | devChallenges.io</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="song-img">
+
+      </div>
+      <div class="song-info">
+        <p>Lost in the City Lights</p>
+        <p class="artist-name">Cosmo Sheldrake</p>
+      </div>
+      <div class="player">
+        <audio id="audio" src="./resources/lost-in-city-lights-145038.mp3" controls style="display: none;"></audio>
+        <div class="time">
+          <span id="current">0:00</span>
+          <span id="duration">0:00</span>
+        </div>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+        <div class="player-buttons">
+        <img onclick="audio.play()" src="./resources/Stop_and_play_fill-1.svg">
+         <img class="play" onclick="audio.play()" src="./resources/Play_fill.svg">
+          <img onclick="audio.play()" src="./resources/Stop_and_play_fill.svg">
+        
+          
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

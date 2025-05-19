@@ -1,0 +1,97 @@
+:root{
+   --bg-color: #212936;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../resources/gradient-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    margin: 25vh auto;
+    max-width: 340px;
+    padding: 1rem;
+    background-color: #212936;
+    border-radius: 1rem;
+
+    
+    
+}
+
+ .player {
+      
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     
+    }
+    .progress-container {
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      cursor: pointer;
+      height: 3px;
+      margin: 0.25rem 0;
+      display: flex;
+      
+      
+    }
+    .progress {
+      background: #4caf50;
+      height: 100%;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+    .time {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: #555;
+      font-size: 0.625rem;
+    }
+
+    .song-img{
+        background-image: url(../resources/cover-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        border-radius: 1rem;
+    }
+
+    .player-buttons, .song-info{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .song-info{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.3rem;
+        color: #e5e7eb;
+        font-size: 1rem;
+        
+    }
+
+    .artist-name{
+        color: #4D5562;
+        font-size: 0.75rem;
+    }
+
+    .play{
+        background-color: #c93b76;
+        border-radius: 50%;
+        padding: 0.25rem;
+        filter: drop-shadow(0px 8px 16px rgba(201, 59, 118, 0.25));
+    }
