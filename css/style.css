@@ -11,13 +11,15 @@ body{
     background-image: url(../resources/gradient-bg-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     font-family: "Inter", sans-serif;
+    overflow: hidden;
 }
 .container{
     margin: 20vh auto;
     max-width: 340px;
     padding: 1rem;
-    background-color: #212936;
+    background-color: #121826a6;
     border-radius: 1rem;
 }
 
