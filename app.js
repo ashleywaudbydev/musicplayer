@@ -23,7 +23,8 @@ function updateUi() {
   songInfo.innerHTML = `
     <p>${songs[currentSongIndex].title}</p>
     <p class="artist-name">${songs[currentSongIndex].author}</p>`;
-    songImg.innerHTML = `<img class="song-img" src = "${songs[currentSongIndex].img}">`;
+    songImg.innerHTML = `<img style='border-radius: 0.5rem'; src = "${songs[currentSongIndex].img}">`;
+    songImg.classList.add("song-img")
 }
 // play a next song
 function nextSong(){
@@ -65,7 +66,9 @@ function loadSong(index) {
    <p>${songs[0].title}</p>
    <p class="artist-name">${songs[0].author}</p>
     `;
-    songImg.innerHTML = `<img class="song-img" src = "${songs[0].img}">`
+    songImg.innerHTML = `<img style='border-radius: 0.5rem'; src = "${songs[0].img}">`;
+   
+   
     audio.play()
 }
 // Event listners for the project

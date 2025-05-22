@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../resources/gradient-bg.jpg);
+    background-image: url(../resources/gradient-bg-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Inter", sans-serif;
@@ -51,14 +51,7 @@ body{
     color: #555;
     font-size: 0.625rem;
 }
-.song-img{
-    background-image: url(../resources/cover-1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    border-radius: 1rem;
-}
+
 .player-buttons, .song-info{
     display: flex;
     flex-direction: row;
@@ -96,17 +89,11 @@ body{
     filter: drop-shadow(0px 8px 16px rgba(201, 59, 118, 0.25));
 }
 
-#mute{
-    height: 30px;
-    font-size: 1.5rem;
-    
-    width: 50px;
-    top: 675px;
-   
-    background-color: transparent;
-    position: absolute;
-    left: 350px;
-    border: none
-;
+
+@media(min-width: 900px) {
+    body{
+    background-image: url(../resources/gradient-bg.jpg);
    
 }
+}
+
