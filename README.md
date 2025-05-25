@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">{Music Player} | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/music-player" target="_blank">Music Player
@@ -42,47 +42,36 @@
 
 
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
-
 ### What I learned
-
+I learned about the audio elements and the methods we can use on them and also how to better structure my js code to make it better for readability.
 
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+Chatgpt
 
 ### Built with
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Javascript
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+- Load the UI
+- Play a song
+- skip a song
+- go back a song
+- update the Ui everytime we play a song
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [your-website.com]([https://{your-web-site-link](https://ashleywaudbydev.github.io/musicplayer/)})
+- GitHub [ashleywaudbydev]([https://{github.com/your-usermame](https://github.com/ashleywaudbydev)})
