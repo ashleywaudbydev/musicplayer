@@ -73,5 +73,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [https://{https://ashleywaudbydev.github.io/musicplayer/}]
+- Website [MusicPlayer](https://ashleywaudbydev.github.io/musicplayer/)
 - GitHub [ashleywaudbydev](https://github.com/ashleywaudbydev)
